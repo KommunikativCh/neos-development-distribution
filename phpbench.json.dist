@@ -1,0 +1,5 @@
+{
+  "runner.bootstrap": "Packages/Libraries/autoload.php",
+  "runner.path": "Packages/**/Tests/PhpBench/",
+  "runner.iterations": 10
+}

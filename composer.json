@@ -55,7 +55,8 @@
     "post-package-update": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",
     "post-package-install": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",
     "test-unit": "phpunit -c Build/BuildEssentials/PhpUnit/UnitTests.xml",
-    "test-functional": "phpunit -c Build/BuildEssentials/PhpUnit/FunctionalTests.xml"
+    "test-functional": "phpunit -c Build/BuildEssentials/PhpUnit/FunctionalTests.xml",
+    "benchmark": "tools/phpbench run --report=aggregate"
   },
   "require-dev": {
     "neos/behat": "9.0.x-dev",
