@@ -63,7 +63,7 @@
     "neos/buildessentials": "@dev",
     "mikey179/vfsstream": "^1.6",
     "league/flysystem-memory": "^3",
-    "phpunit/phpunit": "^9.6",
+    "phpunit/phpunit": "^9.6.11",
     "phpstan/phpstan": "^1.10.0",
     "squizlabs/php_codesniffer": "^3.6"
   }
