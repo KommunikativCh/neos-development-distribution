@@ -37,8 +37,7 @@
     "neos/twitter-bootstrap": "@dev",
     "neos/form": "@dev",
     "neos/neos-setup": "^4.0.x-dev",
-    "neos/setup": "@dev",
-    "neos/redirecthandler-databasestorage": "6.*"
+    "neos/setup": "@dev"
   },
   "repositories": {
     "distributionPackages": {
@@ -60,7 +59,7 @@
     "benchmark": "tools/phpbench run --report=aggregate"
   },
   "require-dev": {
-    "neos/behat": "9.0.0-beta10",
+    "neos/behat": "9.0.x-dev",
     "neos/buildessentials": "@dev",
     "mikey179/vfsstream": "^1.6",
     "league/flysystem-memory": "^3",
