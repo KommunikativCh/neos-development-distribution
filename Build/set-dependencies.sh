@@ -71,7 +71,7 @@ php "${COMPOSER_PHAR}" --working-dir=Distribution require --dev --no-update "neo
 
 # Require exact versions of sub dependency packages, allowing unstable
 if [[ ${STABILITY_FLAG} ]]; then
-  # Nothing to remove here
+  echo 'Detected stability flag "${STABILITY_FLAG}" therefore not changing further dependencies in distribution'
 else
   # Remove requirements for development version of sub dependency packages
   php "${COMPOSER_PHAR}" --working-dir=Distribution remove --no-update "neos/fusion"
